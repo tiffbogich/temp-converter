@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Convert temperatures</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <div class="aligner">
+      <div class="align-item">
+        <h1>Convert temperatures</h1>
+        <p>Simply type in a temperature, select your units and press <em>convert</em>!</p> 
+        <form id="convert-form">
+          <input type="number" id="temp" placeholder="32">
+          &#176;<input list="units" id="units" placeholder="F">
+          <datalist>
+            <option value= "F"></option>
+            <option value= "C"></option>
+          </datalist>
+          <input type="submit" value="convert">
+        </form>
+
+        <p><span id="input-temp"></span><span id="input-unit"></span><span id="output-temp"></span><span id="output-unit"></span></p>
+      </div>
+    </div>
+  </body>
+  <script src="js/project.js" type="text/javascript"></script>
+</html>

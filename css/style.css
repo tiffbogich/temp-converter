@@ -1,0 +1,28 @@
+.aligner{
+  display: flex;
+  height:400px;
+}
+
+.align-item {
+  width: 60%;
+  margin: auto;
+  height:200px;
+  text-align: center;
+}
+
+input {
+  width:50px;
+}
+
+input[type="submit"]{
+  width:80px;
+  height:25px;
+  border-radius: 2px;
+  background-color: #F24162;
+  color:white;
+  border-top: 2px solid #F2497F;
+  border-left: 2px solid #F2497F;
+  border-right: 2px solid #B02C47;
+  border-bottom: 2px solid #B02C47;
+  margin-left:10px;
+}
